@@ -1,14 +1,3 @@
-# Chromaic — README
-
-> **Project Name:** Chromaic
-> **Repository:** (to be created/pushed to GitHub)
-> **Type:** Website / Theme starter for HTML & CSS
-> **Status:** Production / Live at `https://chromaic.vercel.app/`
-> **Maintainer:** *(Your Name or Team)*
-> **Contact:** *(Your Email or other)*
-
----
-
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
