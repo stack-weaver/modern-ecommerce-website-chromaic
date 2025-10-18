@@ -1,196 +1,233 @@
-- [Introduction](#introduction)
-- [Full-stack Applications](#full-stack-applications)
-  * [E-commerce (shopping cart)](#e-commerce--shopping-cart-)
-    + [Server side implementations](#server-side-implementations)
-    + [Client side implementations](#client-side-implementations)
-  * [Blog/CMS](#blog-cms)
-    + [Server side implementations](#server-side-implementations-1)
-    + [Client side](#client-side)
-      - [The next come are](#the-next-come-are)
-  * [Simple CRUD(Create, Read, Update, Delete)](#simple-crud-create--read--update--delete-)
-    + [Server side implementations](#server-side-implementations-2)
-    + [Client side implementations](#client-side-implementations-1)
-      - [The next come are](#the-next-come-are-1)
-  * [CRUD + Pagination](#crud---pagination)
-    + [Server side implementations](#server-side-implementations-3)
-      - [The next come are](#the-next-come-are-2)
-    + [Client side implementations](#client-side-implementations-2)
-      - [The next come are](#the-next-come-are-3)
-- [TODO](#todo)
-- [Resources](#resources)
-  * [Available Scripts](#available-scripts)
-    + [`npm start`](#-npm-start-)
-    + [`npm test`](#-npm-test-)
-    + [`npm run build`](#-npm-run-build-)
-    + [`npm run eject`](#-npm-run-eject-)
-  * [Learn More](#learn-more)
-# Introduction
-This shopping cart application is built using React, it is supposed to work with any of these servers listed below. **Be warned** that
-while making this app I am using this [Spring Boot Server](https://github.com/melardev/SBootApiEcomMVCHibernate) so I strongly encourage you
-to use that as well, all the other servers worked from postman, but I don't know If they return in the response something called differently that
-this app can not read, so if this redux app does not work, that is the reason, just a typo in a response variable, let me know about any typos
-in any of the server apps and I will try to fix it.
+# Chromaic — README
 
-# Full-stack Applications
-## E-commerce (shopping cart)
-### Server side implementations
-- [Spring Boot + Spring Data Hibernate](https://github.com/melardev/SBootApiEcomMVCHibernate)
-- [Spring Boot + JAX-RS Jersey + Spring Data Hibernate](https://github.com/melardev/SpringBootEcommerceApiJersey)
-- [Node Js + Sequelize](https://github.com/melardev/ApiEcomSequelizeExpress)
-- [Node Js + Bookshelf](https://github.com/melardev/ApiEcomBookshelfExpress)
-- [Node Js + Mongoose](https://github.com/melardev/ApiEcomMongooseExpress)
-- [Python Django](https://github.com/melardev/DjangoRestShopApy)
-- [Flask](https://github.com/melardev/FlaskApiEcommerce)
-- [Golang go gonic](https://github.com/melardev/api_shop_gonic)
-- [Ruby on Rails](https://github.com/melardev/RailsApiEcommerce)
-- [AspNet Core](https://github.com/melardev/ApiAspCoreEcommerce)
-- [Laravel](https://github.com/melardev/ApiEcommerceLaravel)
+> **Project Name:** Chromaic
+> **Repository:** (to be created/pushed to GitHub)
+> **Type:** Website / Theme starter for HTML & CSS
+> **Status:** Production / Live at `https://chromaic.vercel.app/`
+> **Maintainer:** *(Your Name or Team)*
+> **Contact:** *(Your Email or other)*
 
-The next to come are:
-- Spring Boot + Spring Data Hibernate + Kotlin
-- Spring Boot + Jax-RS Jersey + Hibernate + Kotlin
-- Spring Boot + mybatis
-- Spring Boot + mybatis + Kotlin
-- Asp.Net Web Api v2
-- Elixir
-- Golang + Beego
-- Golang + Iris
-- Golang + Echo
-- Golang + Mux
-- Golang + Revel
-- Golang + Kit
-- Flask + Flask-Restful
-- AspNetCore + NHibernate
-- AspNetCore + Dapper
+---
 
-### Client side implementations
-This client side E-commerce application is also implemented using other client side technologies:
-- [React Redux](https://github.com/melardev/ReactReduxEcommerceRestApi)
-- [React](https://github.com/melardev/ReactEcommerceRestApi)
-- [Vue](https://github.com/melardev/VueEcommerceRestApi)
-- [Vue + Vuex](https://github.com/melardev/VueVuexEcommerceRestApi)
-- [Angular](https://github.com/melardev/AngularEcommerceRestApi)
+## Table of Contents
 
-## Blog/CMS
-### Server side implementations
-### Client side
-#### The next come are
-- Angular NgRx-Store
-- Angular + Material
-- React + Material
-- React + Redux + Material
-- Vue + Material
-- Vue + Vuex + Material
-- Ember
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+4. [Getting Started / Prerequisites](#getting-started-prerequisites)
+5. [Installation & Development](#installation--development)
+6. [Folder Structure](#folder-structure)
+7. [Configuration & Environment](#configuration--environment)
+8. [Building & Deployment](#building--deployment)
+9. [Customization & Theming](#customization--theming)
+10. [Testing & Quality](#testing--quality)
+11. [Contributing](#contributing)
+12. [License](#license)
+13. [Contact](#contact)
 
-## Simple CRUD(Create, Read, Update, Delete)
-### Server side implementations
-### Client side implementations
-#### The next come are
-- Angular NgRx-Store
-- Angular + Material
-- React + Material
-- React + Redux + Material
-- Vue + Material
-- Vue + Vuex + Material
-- Ember
-- Vanilla javascript
+---
 
-## CRUD + Pagination
-### Server side implementations
-- [Spring Boot + Spring Data + Jersey](https://github.com/melardev/SpringBootJerseyApiPaginatedCrud)
-- [Spring Boot + Spring Data](https://github.com/melardev/SpringBootApiJpaPaginatedCrud)
-- [Spring Boot Reactive + Spring Data Reactive](https://github.com/melardev/ApiCrudReactiveMongo)
-- [Go with Gin Gonic](https://github.com/melardev/GoGinGonicApiPaginatedCrud)
-- [Laravel](https://github.com/melardev/LaravelApiPaginatedCrud)
-- [Rails + JBuilder](https://github.com/melardev/RailsJBuilderApiPaginatedCrud)
-- [Rails](https://github.com/melardev/RailsApiPaginatedCrud)
-- [NodeJs Express + Sequelize](https://github.com/melardev/ExpressSequelizeApiPaginatedCrud)
-- [NodeJs Express + Bookshelf](https://github.com/melardev/ExpressBookshelfApiPaginatedCrud)
-- [NodeJs Express + Mongoose](https://github.com/melardev/ExpressApiMongoosePaginatedCrud)
-- [Python Django](https://github.com/melardev/DjangoApiCrudPaginated)
-- [Python Django + Rest Framework](https://github.com/melardev/DjangoRestFrameworkPaginatedCrud)
-- [Python Flask](https://github.com/melardev/FlaskApiPaginatedCrud)
-- [AspNet Core](https://github.com/melardev/AspNetCoreApiPaginatedCrud)
-- [AspNet Web Api 2](https://github.com/melardev/WebApiPaginatedAsyncCrud)
+## Project Overview
 
-#### The next come are
-- NodeJs Express + Knex
-- Flask + Flask-Restful
-- Laravel + Fractal
-- Laravel + ApiResources
-- Go with Mux
-- AspNet Web Api 2
-- Jersey
-- Elixir
+**Chromaic** is a modern HTML theme designed for building stylish, responsive websites. Hosted at **`https://chromaic.vercel.app/`**, the project provides a clean starter template that you (or other developers) can build upon for personal portfolios, landing pages, or small business sites.
 
-### Client side implementations
-- [Angular](https://github.com/melardev/AngularPaginatedAsyncCrud)
-- [React-Redux](https://github.com/melardev/ReactReduxPaginatedAsyncCrud)
-- [React](https://github.com/melardev/ReactAsyncPaginatedCrud)
-- [Vue + Vuex](https://github.com/melardev/VueVuexPaginatedAsyncCrud)
-- [Vue](https://github.com/melardev/VuePaginatedAsyncCrud)
+Some key aspects:
 
+* Ready-to-use HTML/CSS structure and styling.
+* Mobile-first, responsive layout, clean codebase.
+* Easily customizable to adapt colors, typography, layout.
+* Optimized for quick deployment (e.g., via Vercel, Netlify).
 
-#### The next come are
-- Angular NgRx-Store
-- Angular + Material
-- React + Material
-- React + Redux + Material
-- Vue + Material
-- Vue + Vuex + Material
-- Ember
-- Vanilla javascript
+In short: it’s a foundation to get a shiny website live quickly, without starting from scratch.
 
-# TODO
-- After login or register redirect where the user was
-- Guards
-- It may be a good idea to separate the UsersService from a secrets service, to store the user and the tokens
-differently, this is how I did it at the beginning: UsersService manages user storage, JwtService manages token storage,
-then I removed this difference to keep it simple.
+---
 
-# Resources
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+* A clean homepage layout (e.g., “New Trend Home Fashion 01”).
+* Modern design aesthetic: minimal, clear typography, balanced spacing.
+* Responsive grid & flexible sections for content.
+* Simple to extend: add your own pages, components, or reuse sections.
+* Built with best practices in mind (semantic HTML, accessible structure).
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* HTML5
+* CSS3 (optionally SCSS if you choose to extend)
+* (Optional) JavaScript for interactive components (not mandatory)
+* Deployment via **Vercel** — using static hosting.
+* (Optional) Build tool such as `npm` scripts or bundler if you add assets, but base version is vanilla.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Getting Started / Prerequisites
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before you begin:
 
-### `npm run build`
+* A modern browser for development (Chrome, Firefox, Safari).
+* Basic knowledge of HTML/CSS.
+* (Optional) Node.js & npm/yarn if you choose to integrate build tooling.
+* (Optional) A GitHub account and Git client to clone and manage the repo.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Installation & Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to get the project running locally:
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   git clone https://github.com/yourusername/chromaic.git
+   cd chromaic
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. (Optional) Install dependencies if you added build tooling:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```bash
+   npm install
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Run a local development server:
 
-## Learn More
+   If no build system:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   * Simply open `index.html` in your browser, or
+   * Use a local web server (VS Code Live Server, `npx serve .`, etc.)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   If using a build tool:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Make your edits. Styles are in `css/` (or `scss/`), HTML markup in `pages/` (or root).
+
+5. View changes in browser, ensure responsiveness and styling as expected.
+
+---
+
+## Folder Structure
+
+Here’s an example of the project’s structure:
+
+```
+chromaic/
+├── index.html
+├── about.html       <-- sample additional page
+├── css/
+│   ├── styles.css
+│   └── (optional) styles.scss
+├── js/
+│   └── main.js      <-- if you add custom scripts
+├── assets/
+│   ├── images/
+│   └── fonts/
+├── README.md
+└── .gitignore
+```
+
+Adjust as necessary if you adopt more directories or frameworks.
+
+---
+
+## Configuration & Environment
+
+Because this is a mostly static site, you don’t need heavy configuration. But if you add variables (colors, typography) or build tooling:
+
+* Use a `_variables.scss` or `:root { --primary-color: ... }` in CSS to make theme changes easy.
+* If using Node tools, create `.env` for environment-specific variables (e.g., analytics keys, API endpoints).
+* Deployment environment should automatically rebuild when pushing to branch (e.g., `main` → production on Vercel).
+
+---
+
+## Building & Deployment
+
+To deploy:
+
+1. Build assets (if applicable):
+
+   ```bash
+   npm run build
+   ```
+
+2. Push to GitHub repo and link to Vercel or another static host.
+
+3. Ensure branch settings: when `main` (or `production`) branch is updated, auto-deploy to site.
+
+4. Configure analytics, redirects, custom domain if needed.
+
+---
+
+## Customization & Theming
+
+To adapt the theme to your brand or project:
+
+* Change colors: update CSS variables or SCSS variables.
+* Update typography: adjust font families, sizes in root stylesheet.
+* Replace images/assets: keep aspect ratios or responsive formats.
+* Add new sections/pages: duplicate existing ones and modify content/layout.
+* Optimize for performance: compress assets, use `loading="lazy"` on images, etc.
+
+---
+
+## Testing & Quality
+
+* Validate HTML via the W3C validator to ensure semantic correctness.
+* Use browser dev tools to check responsiveness and cross-browser support.
+* Run CSS linting (Stylelint) if you extended to SCSS.
+* Optionally integrate ESLint + Prettier if you added JavaScript.
+* Use GitHub Actions (or other CI) to automatically run lint checks and deployments.
+
+---
+
+## Contributing
+
+We welcome contributions!
+
+* Fork the repository and create your feature branch: `feature/your-feature`.
+* Ensure your code is clean, assets optimized, and responsive.
+* Open a Pull Request with a descriptive title and summary of changes.
+* Please follow the established folder structure and naming conventions.
+* Add or update README if you introduce major changes or new pages/components.
+
+Also consider adding:
+
+* `CONTRIBUTING.md` — guidelines for contributors.
+* `CODE_OF_CONDUCT.md` — expected behaviour in community.
+* Issue templates and PR templates in `.github/`.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
+See the `LICENSE` file for details.
+
+```
+MIT License
+© 2025 YourName
+```
+
+*(Replace with a different license if needed)*
+
+---
+
+## Contact
+
+* Maintainer: **Stack Weaver**
+* Email: `stackweaver7@gmail.com`
+* Repo: `https://github.com/stack-weaver/chromaic`
+* Issues & feedback: Use GitHub Issues in the repo.
+
+---
+
+Thanks for using **Chromaic**!
+Build something amazing, make it yours, and happy coding. 🚀
+
+---
+
+> *If you like, I can generate starter templates like `docker-compose.yml`, GitHub Actions workflows, and set up an example color theme palette for you.*
+> Would you like that?
